@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataConfig url="v2/578700300f0000771da584f1" httpMethod="get">
+    <TestData name="mock" desc="mock">
+        <ExpectResult>
+            <Pair>hello:world</Pair>
+        </ExpectResult>
+    </TestData>
+</DataConfig>
