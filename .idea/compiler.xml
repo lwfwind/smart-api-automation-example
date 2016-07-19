@@ -33,7 +33,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="smart-api-automation-multi-module-example" target="1.5" />
+      <module name="smart-api-automation-multi-module-example" target="1.7" />
       <module name="smart-api-framework" target="1.7" />
       <module name="test" target="1.7" />
     </bytecodeTargetLevel>
