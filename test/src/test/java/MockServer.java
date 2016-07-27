@@ -28,10 +28,8 @@ public class MockServer implements IMockServer {
                                 .withStatusCode(200)
                                 .withHeaders(
                                         new Header("Content-Type", "application/json; charset=utf-8"),
-                                        new Header("Cache-Control", "no-store, no-cache, must-revalidate, post-check=0, pre-check=0")
-                                )
-                                .withCookies(
-                                        new Cookie("PHPSESSID", "9alb81bkiav0nffo0r8m9vf5s3")
+                                        new Header("Cache-Control", "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"),
+                                        new Header("Set-Cookie", "PHPSESSID=9alb81bkiav0nffo0r8m9vf5s3; path=/")
                                 )
                                 .withBody("{errorCode:200,errorMsg:\"登录成功\"}")
                                 .withDelay(TimeUnit.MILLISECONDS, 100)
