@@ -13,6 +13,8 @@
         <ExpectResult>
             <Pair>errorCode:200</Pair>
             <Pair>errorMsg:约课成功</Pair>
+            <Pair>errorMsg:约课.*</Pair>
+            <Contain>.*errorMsg.*</Contain>
         </ExpectResult>
         <After>
             <Function  clsName="test.java.LogicHandler" methodName="reset"/>
