@@ -1,10 +1,6 @@
 package test.java;
 
-import com.qa.framework.library.database.DBHelper;
 import org.apache.log4j.Logger;
-
-import java.util.List;
-import java.util.Map;
 
 /**
  * Created by Administrator on 2016/6/22.

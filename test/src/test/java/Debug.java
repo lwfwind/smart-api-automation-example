@@ -3,19 +3,34 @@ package test.java;
 import com.qa.framework.bean.TestData;
 import com.qa.framework.core.DataManager;
 import com.qa.framework.core.TestBase;
-import org.mockserver.matchers.Times;
-import org.mockserver.model.Header;
-import org.mockserver.model.HttpRequest;
-import org.mockserver.model.HttpResponse;
-import org.mockserver.model.StringBody;
-import org.testng.annotations.AfterTest;
+import com.qa.framework.mock.IMockServer;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-/**
- * Created by Administrator on 2016/7/8.
- */
+import static com.qa.framework.classfinder.ClassHelper.findImplementClass;
+
 public class Debug extends TestBase {
+
+    private IMockServer mockServer = null;
+
+    @BeforeSuite(alwaysRun = true)
+    public void beforeClass() throws IllegalAccessException, InstantiationException {
+        Class<?> clazz = findImplementClass(IMockServer.class);
+        if (clazz != null) {
+            mockServer = (IMockServer) clazz.newInstance();
+            mockServer.startServer();
+            mockServer.settingRules();
+        }
+    }
+
+    @AfterSuite(alwaysRun = true)
+    public void afterClass() {
+        if (mockServer != null) {
+            mockServer.stopServer();
+        }
+    }
 
     @Test(dataProviderClass = DataManager.class, dataProvider = "data")
     public void debug(TestData testData, String url, String httpMethod) {
@@ -30,7 +45,7 @@ public class Debug extends TestBase {
     @BeforeTest(alwaysRun = true)
     public void before() {
         String xmlName = "demo";
-        String xmlDataName = "mock";
+        String xmlDataName = "bookSuccess";
         DataManager.setXmlName(xmlName);
         if (!xmlDataName.equalsIgnoreCase("")) {
             DataManager.setXmlDataNmae(xmlDataName);

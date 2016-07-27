@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <suite name="Factory_1_Thread" thread-count="1" parallel="methods" verbose="1">
-  <listeners>
-    <listener class-name="com.qa.framework.testnglistener.RetryListener"/>
-  </listeners>
-  <test name="FactoryExecutor_execute" timeout="600000">
-    <classes>
-      <class name="com.qa.framework.factory.ExecutorFactory">
-        <methods>
-          <include name="execute"/>
-        </methods>
-      </class>
-    </classes>
-  </test>
+    <listeners>
+        <listener class-name="com.qa.framework.testnglistener.RetryListener"/>
+    </listeners>
+    <test name="FactoryExecutor_execute" timeout="600000">
+        <classes>
+            <class name="com.qa.framework.factory.ExecutorFactory">
+                <methods>
+                    <include name="execute"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
 </suite>

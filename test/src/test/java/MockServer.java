@@ -2,8 +2,13 @@ package test.java;
 
 import com.qa.framework.mock.IMockServer;
 import org.mockserver.integration.ClientAndServer;
-import org.mockserver.model.*;
+import org.mockserver.model.Cookie;
+import org.mockserver.model.Header;
+import org.mockserver.model.HttpRequest;
+import org.mockserver.model.HttpResponse;
+
 import java.util.concurrent.TimeUnit;
+
 import static org.mockserver.integration.ClientAndServer.startClientAndServer;
 
 
