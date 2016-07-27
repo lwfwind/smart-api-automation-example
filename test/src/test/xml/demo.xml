@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<DataConfig url="v2/578700300f0000771da584f1" httpMethod="get">
-    <TestData name="mock" desc="mock">
+<DataConfig url="/bookClass" httpMethod="put">
+    <TestData name="bookSuccess" desc="约课成功">
+        <Before>
+            <Function  clsName="test.java.LogicHandler" methodName="update"/>
+        </Before>
+        <Setup name="setup" url="/login" httpMethod="post">
+            <Param name="username" value="13636426195">
+            </Param>
+            <Param name="password" value="bddeaa7037632c856a6b83e4037f314a" />
+        </Setup>
+        <Param name="cid" value="7936160" />
         <ExpectResult>
-            <Pair>hello:world</Pair>
+            <Pair>errorCode:200</Pair>
+            <Pair>errorMsg:约课成功</Pair>
         </ExpectResult>
+        <After>
+            <Function  clsName="test.java.LogicHandler" methodName="reset"/>
+        </After>
     </TestData>
 </DataConfig>

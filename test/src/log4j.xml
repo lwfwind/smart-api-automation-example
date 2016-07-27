@@ -23,7 +23,7 @@
             <param name="ConversionPattern" value="[%d{dd HH:mm:ss,SSS\} %-5p] [Thread %T] [%t] %c{2\} - %m%n"/>
         </layout>
         <filter class="org.apache.log4j.varia.LevelRangeFilter">
-            <param name="levelMin" value="info"/>
+            <param name="levelMin" value="debug"/>
             <param name="levelMax" value="fatal"/>
             <param name="AcceptOnMatch" value="true"/>
         </filter>

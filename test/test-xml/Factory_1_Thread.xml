@@ -2,7 +2,7 @@
 
 <suite name="xml_1" thread-count="1" parallel="methods" verbose="1">
   <listeners>
-    <listener class-name="com.qa.framework.testngListener.RetryListener"/>
+    <listener class-name="com.qa.framework.testnglistener.RetryListener"/>
   </listeners>
   <test name="FactoryExecutor_execute" timeout="600000">
     <classes>
