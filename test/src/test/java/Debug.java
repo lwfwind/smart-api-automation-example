@@ -4,13 +4,13 @@ import com.qa.framework.bean.TestData;
 import com.qa.framework.core.DataManager;
 import com.qa.framework.core.TestBase;
 import com.qa.framework.mock.IMockServer;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
+import com.qa.framework.testnglistener.PowerEmailableReporter;
+import com.qa.framework.testnglistener.TestResultListener;
+import org.testng.annotations.*;
 
 import static com.qa.framework.classfinder.ClassHelper.findImplementClass;
 
+@Listeners({TestResultListener.class, PowerEmailableReporter.class})
 public class Debug extends TestBase {
 
     private IMockServer mockServer = null;
@@ -35,7 +35,8 @@ public class Debug extends TestBase {
     @Test(dataProviderClass = DataManager.class, dataProvider = "data")
     public void debug(TestData testData, String url, String httpMethod) {
         processSetupResultParam(testData);
-        String content = request(url, testData.getParams(), httpMethod, testData.isStoreCookie(), testData.isUseCookie());
+        processHeaders(testData);
+        String content = request(url, testData.getHeaders(), testData.getParams(), httpMethod, testData.isStoreCookie(), testData.isUseCookie());
         verifyResult(testData, content);
     }
 
@@ -48,7 +49,7 @@ public class Debug extends TestBase {
         String xmlDataName = "bookSuccess";
         DataManager.setXmlName(xmlName);
         if (!xmlDataName.equalsIgnoreCase("")) {
-            DataManager.setXmlDataNmae(xmlDataName);
+            DataManager.setXmlDataName(xmlDataName);
         }
     }
 }
