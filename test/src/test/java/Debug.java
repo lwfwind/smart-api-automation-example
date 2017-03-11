@@ -2,13 +2,14 @@ package test.java;
 
 import com.qa.framework.bean.TestData;
 import com.qa.framework.core.DataManager;
+import com.qa.framework.core.ParamValueProcessor;
 import com.qa.framework.core.TestBase;
 import com.qa.framework.mock.IMockServer;
 import com.qa.framework.testnglistener.PowerEmailableReporter;
 import com.qa.framework.testnglistener.TestResultListener;
 import org.testng.annotations.*;
 
-@Listeners({TestResultListener.class, PowerEmailableReporter.class})
+@Listeners({TestResultListener.class})
 public class Debug extends TestBase {
 
     private IMockServer mockServer = null;
@@ -29,7 +30,7 @@ public class Debug extends TestBase {
 
     @Test(dataProviderClass = DataManager.class, dataProvider = "data")
     public void debug(TestData testData, String url, String httpMethod) {
-        processSetupResultParam(testData);
+        ParamValueProcessor.processTestData(testData);
         String content = request(url, testData.getHeaders(), testData.getParams(), httpMethod, testData.isStoreCookie(), testData.isUseCookie());
         verifyResult(testData, content);
     }
