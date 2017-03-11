@@ -8,8 +8,6 @@ import com.qa.framework.testnglistener.PowerEmailableReporter;
 import com.qa.framework.testnglistener.TestResultListener;
 import org.testng.annotations.*;
 
-import static com.qa.framework.classfinder.ClassHelper.findImplementClass;
-
 @Listeners({TestResultListener.class, PowerEmailableReporter.class})
 public class Debug extends TestBase {
 
@@ -17,12 +15,9 @@ public class Debug extends TestBase {
 
     @BeforeSuite(alwaysRun = true)
     public void beforeClass() throws IllegalAccessException, InstantiationException {
-        Class<?> clazz = findImplementClass(IMockServer.class);
-        if (clazz != null) {
-            mockServer = (IMockServer) clazz.newInstance();
-            mockServer.startServer();
-            mockServer.settingRules();
-        }
+        mockServer = new MockServer();
+        mockServer.startServer();
+        mockServer.settingRules();
     }
 
     @AfterSuite(alwaysRun = true)
@@ -35,7 +30,6 @@ public class Debug extends TestBase {
     @Test(dataProviderClass = DataManager.class, dataProvider = "data")
     public void debug(TestData testData, String url, String httpMethod) {
         processSetupResultParam(testData);
-        processHeaders(testData);
         String content = request(url, testData.getHeaders(), testData.getParams(), httpMethod, testData.isStoreCookie(), testData.isUseCookie());
         verifyResult(testData, content);
     }

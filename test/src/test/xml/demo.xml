@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<DataConfig url="/bookClass" httpMethod="put">
+<DataConfig url="bookClass" httpMethod="put">
     <TestData name="bookSuccess" desc="约课成功">
         <Before>
             <Function  clsName="test.java.LogicHandler" methodName="update"/>
         </Before>
-        <Setup name="setup" url="/login" httpMethod="post">
+        <Setup name="setup" url="login" httpMethod="post">
             <Param name="username" value="13636426195">
             </Param>
             <Param name="password" value="bddeaa7037632c856a6b83e4037f314a" />
         </Setup>
+        <Headers>
+            <Header name="m-appkey" value="4272" />
+            <Cookie name="unb" value="2020967487" />
+        </Headers>
         <Param name="cid" value="7936160" />
         <ExpectResult>
             <Pair>errorCode:200</Pair>
