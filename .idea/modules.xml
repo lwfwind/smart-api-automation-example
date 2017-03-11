@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/smart-api-automation-multi-module-example.iml" filepath="$PROJECT_DIR$/smart-api-automation-multi-module-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smart-api-automation-example.iml" filepath="$PROJECT_DIR$/smart-api-automation-example.iml" />
       <module fileurl="file://$PROJECT_DIR$/../smart-api-framework/smart-api-framework.iml" filepath="$PROJECT_DIR$/../smart-api-framework/smart-api-framework.iml" />
       <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
     </modules>
