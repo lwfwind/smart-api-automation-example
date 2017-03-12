@@ -40,7 +40,7 @@
         <profile>
             <id>dev</id>
             <properties>
-                <webPath>webPath=http://localhost:1081</webPath>
+                <webPath>webPath=http://localhost:1081/</webPath>
                 <thread-count>1</thread-count>
             </properties>
             <activation>
