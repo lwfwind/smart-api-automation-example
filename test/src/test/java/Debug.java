@@ -40,8 +40,8 @@ public class Debug extends TestBase {
     * 不写Testdata的名称运行整个xml接口文件*/
     @BeforeTest(alwaysRun = true)
     public void before() {
-        String xmlName = "demo";
-        String xmlDataName = "bookSuccess";
+        String xmlName = "post";
+        String xmlDataName = "postMethod";
         DataManager.setXmlName(xmlName);
         if (!xmlDataName.equalsIgnoreCase("")) {
             DataManager.setXmlDataName(xmlDataName);

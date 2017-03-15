@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<DataConfig url="bookClass" httpMethod="put">
-    <TestData name="bookSuccess" desc="约课成功">
+<DataConfig url="getMethod?parameter=7936160" httpMethod="get">
+    <TestData name="getMethod" desc="约课成功">
         <Before>
             <Function  clsName="test.java.LogicHandler" methodName="update"/>
         </Before>
@@ -13,7 +13,6 @@
             <Header name="m-appkey" value="4272" />
             <Cookie name="unb" value="2020967487" />
         </Headers>
-        <Param name="cid" value="7936160" />
         <ExpectResult>
             <Pair>errorCode:200</Pair>
             <Pair>errorMsg:约课成功</Pair>
