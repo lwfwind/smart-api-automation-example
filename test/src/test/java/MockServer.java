@@ -44,7 +44,8 @@ public class MockServer implements IMockServer {
                         new HttpRequest()
                                 .withMethod("GET")
                                 .withPath("/getMethod")
-                                .withQueryStringParameter("parameter","7936160")
+                                .withQueryStringParameter("parameter1","200")
+                                .withQueryStringParameter("parameter2","7936160")
                                 .withCookies(
                                         new Cookie("PHPSESSID", "9alb81bkiav0nffo0r8m9vf5s3")
                                 )
