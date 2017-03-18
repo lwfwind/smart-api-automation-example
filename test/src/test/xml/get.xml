@@ -15,12 +15,12 @@
         </Headers>
         <Param name="parameter1" value="#{setup.errorCode+1}" />
         <Param name="parameter2" value="7936160" />
-        <ExpectResult>
+        <ExpectResults>
             <Pair>errorCode:#{setup.errorCode}或者#{setup.errorCode+1}</Pair>
             <Pair>errorMsg:约课成功</Pair>
             <Pair>errorMsg:约课.*</Pair>
             <Contain>.*errorMsg.*</Contain>
-        </ExpectResult>
+        </ExpectResults>
         <After>
             <Function  clsName="test.java.LogicHandler" methodName="reset"/>
         </After>

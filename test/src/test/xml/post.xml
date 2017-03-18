@@ -15,11 +15,11 @@
         </Headers>
         <Param name="parameter1" value="#{setup.errorCode}" />
         <Param name="parameter2" value="7936160" />
-        <ExpectResult>
+        <ExpectResults>
             <Pair>showId:129346948</Pair>
             <Pair>showId:1293469.*</Pair>
             <Contain>.*showId.*</Contain>
-        </ExpectResult>
+        </ExpectResults>
         <After>
             <Function  clsName="test.java.LogicHandler" methodName="reset"/>
         </After>
