@@ -4,6 +4,7 @@ import com.qa.framework.bean.TestData;
 import com.qa.framework.core.DataManager;
 import com.qa.framework.core.ParamValueProcessor;
 import com.qa.framework.core.TestBase;
+import com.qa.framework.library.httpclient.HttpMethod;
 import com.qa.framework.mock.IMockServer;
 import com.qa.framework.testnglistener.PowerEmailableReporter;
 import com.qa.framework.testnglistener.TestResultListener;
@@ -31,7 +32,7 @@ public class Debug extends TestBase {
     @Test(dataProviderClass = DataManager.class, dataProvider = "data")
     public void debug(TestData testData, String url, String httpMethod) {
         ParamValueProcessor.processTestData(testData);
-        String content = request(url, testData.getHeaders(), testData.getParams(), httpMethod, testData.isStoreCookie(), testData.isUseCookie());
+        String content = HttpMethod.request(url, testData.getHeaders(), testData.getParams(), httpMethod, testData.isStoreCookie(), testData.isUseCookie());
         verifyResult(testData, content);
     }
 
@@ -40,8 +41,8 @@ public class Debug extends TestBase {
     * 不写Testdata的名称运行整个xml接口文件*/
     @BeforeTest(alwaysRun = true)
     public void before() {
-        String xmlName = "post";
-        String xmlDataName = "postMethod";
+        String xmlName = "get";
+        String xmlDataName = "getMethod";
         DataManager.setXmlName(xmlName);
         if (!xmlDataName.equalsIgnoreCase("")) {
             DataManager.setXmlDataName(xmlDataName);

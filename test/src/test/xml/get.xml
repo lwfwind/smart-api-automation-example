@@ -13,10 +13,10 @@
             <Header name="m-appkey" value="4272" />
             <Cookie name="unb" value="2020967487" />
         </Headers>
-        <Param name="parameter1" value="#{setup.errorCode}" />
+        <Param name="parameter1" value="#{setup.errorCode+1}" />
         <Param name="parameter2" value="7936160" />
         <ExpectResult>
-            <Pair>errorCode:200</Pair>
+            <Pair>errorCode:#{setup.errorCode}或者#{setup.errorCode+1}</Pair>
             <Pair>errorMsg:约课成功</Pair>
             <Pair>errorMsg:约课.*</Pair>
             <Contain>.*errorMsg.*</Contain>

@@ -44,7 +44,7 @@ public class MockServer implements IMockServer {
                         new HttpRequest()
                                 .withMethod("GET")
                                 .withPath("/getMethod")
-                                .withQueryStringParameter("parameter1","200")
+                                .withQueryStringParameter("parameter1","201")
                                 .withQueryStringParameter("parameter2","7936160")
                                 .withCookies(
                                         new Cookie("PHPSESSID", "9alb81bkiav0nffo0r8m9vf5s3")
@@ -57,7 +57,7 @@ public class MockServer implements IMockServer {
                                         new Header("Content-Type", "application/json; charset=utf-8"),
                                         new Header("Cache-Control", "no-store, no-cache, must-revalidate, post-check=0, pre-check=0")
                                 )
-                                .withBody("{\"errorCode\":200,\"errorMsg\":\"\\u7ea6\\u8bfe\\u6210\\u529f\"}")
+                                .withBody("{\"errorCode\":\"200或者201\",\"errorMsg\":\"\\u7ea6\\u8bfe\\u6210\\u529f\"}")
                                 .withDelay(TimeUnit.MILLISECONDS, 100)
                 );
 
