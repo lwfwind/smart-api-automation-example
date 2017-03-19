@@ -19,6 +19,8 @@
             <Pair>showId:129346948</Pair>
             <Pair>showId:1293469.*</Pair>
             <Contain>.*showId.*</Contain>
+            <AssertTrue>"#{bizType}"=="#{fromdb}"</AssertTrue>
+            <Function name="fromdb" clsName="test.java.LogicHandler" methodName="getBizType"/>
         </ExpectResults>
         <After>
             <Function  clsName="test.java.LogicHandler" methodName="reset"/>

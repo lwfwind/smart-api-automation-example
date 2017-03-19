@@ -13,4 +13,8 @@ public class LogicHandler {
     public static void update() {
         logger.info("LogicHandler.update");
     }
+
+    public static String getBizType(){
+        return "SEAT";
+    }
 }

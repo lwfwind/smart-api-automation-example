@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f8618e6-0534-46bf-8521-ad42260609f4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_lwfwind_common_java_common_helper_2_0.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test-xml/FactoryRunMultiThread.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/target/classes/log4j.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/src/test/java/Debug.java" afterPath="$PROJECT_DIR$/test/src/test/java/Debug.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/src/test/java/MockServer.java" afterPath="$PROJECT_DIR$/test/src/test/java/MockServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/src/test/xml/get.xml" afterPath="$PROJECT_DIR$/test/src/test/xml/get.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/src/test/java/LogicHandler.java" afterPath="$PROJECT_DIR$/test/src/test/java/LogicHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/src/test/xml/post.xml" afterPath="$PROJECT_DIR$/test/src/test/xml/post.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test.iml" afterPath="$PROJECT_DIR$/test/test.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_lwfwind_common_java_common_helper_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_lwfwind_common_java_common_helper_2_2.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
     </list>
     <ignored path="smart-api-automation-multi-module-example.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,56 +37,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="PairExpectResult.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/verify/PairExpectResult.java">
+      <file leaf-file-name="get.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/src/test/xml/get.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+            <state relative-caret-position="179">
+              <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParamValueProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/core/ParamValueProcessor.java">
+      <file leaf-file-name="AssertTrueExpectResult.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/verify/AssertTrueExpectResult.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="444" column="0" selection-start-line="444" selection-start-column="0" selection-end-line="444" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#19434#19442#0" expanded="true" />
-                <element signature="e#19613#19808#0" expanded="true" />
-                <element signature="e#19807#19808#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+            <state relative-caret-position="475">
+              <caret line="43" column="61" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MockServer.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/src/test/java/MockServer.java">
+      <file leaf-file-name="post.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/src/test/xml/post.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../smart-api-framework/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+            <state relative-caret-position="375">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="94" />
               <folding />
             </state>
           </provider>
@@ -91,54 +71,59 @@
         <entry file="file://$PROJECT_DIR$/../smart-api-framework/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="475">
-                <caret line="182" column="41" selection-start-line="182" selection-start-column="41" selection-end-line="182" selection-end-column="41" />
+              <first_editor relative-caret-position="278">
+                <caret line="124" column="53" selection-start-line="124" selection-start-column="53" selection-end-line="124" selection-end-column="53" />
                 <folding>
-                  <marker date="1489830691194" expanded="true" signature="1363:2179" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="1401:2165" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="1474:1803" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="1533:1723" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="1567:1702" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="1849:2024" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="1879:2007" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="2047:2149" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="2326:2971" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="2364:2957" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="2437:2766" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="2496:2686" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="2530:2665" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="2815:2816" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="2839:2941" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="3095:3643" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="3135:3628" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="3190:3412" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="3219:3395" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="3510:3612" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="3776:4194" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="3818:4180" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="3851:3957" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="4057:4163" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="4357:5079" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="4415:5065" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="4470:4708" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="4500:4691" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="4837:5049" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="5209:6070" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="5252:6057" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="5269:5461" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="5516:5654" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="5545:5637" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="5735:5837" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="5853:6041" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="6227:6675" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="6270:6662" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="6325:6463" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="6354:6446" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="6544:6646" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="6785:7247" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="6828:7234" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="6846:7052" ph="..." />
-                  <marker date="1489830691194" expanded="true" signature="7118:7218" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="1388:2251" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="1431:2238" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="1448:1640" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="1695:1833" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="1724:1816" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="1915:2018" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="2034:2222" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="2404:3222" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="2442:3208" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="2515:2844" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="2574:2764" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="2608:2743" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="2890:3065" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="2920:3048" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="3089:3192" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="3367:4014" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="3405:4000" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="3478:3807" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="3537:3727" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="3571:3706" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="3881:3984" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="4145:4825" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="4185:4810" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="4240:4462" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="4269:4445" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="4565:4667" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="4691:4794" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="4965:5576" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="5005:5561" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="5029:5545" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="5223:5423" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="5700:6247" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="5740:6232" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="5764:6216" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="5894:6094" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="6408:7132" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="6466:7118" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="6521:6759" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="6551:6742" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="6889:7102" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="7287:7737" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="7330:7724" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="7385:7523" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="7414:7506" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="7605:7708" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="7845:8309" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="7906:8112" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="8179:8280" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="8280:8296" ph="..." />
+                  <marker date="1489900160747" expanded="true" signature="8280:8309" ph="..." />
                 </folding>
               </first_editor>
               <second_editor />
@@ -146,11 +131,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="get.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/src/test/xml/get.xml">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogicHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/src/test/java/LogicHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+              <folding>
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../smart-api-framework/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+              <caret line="87" column="24" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -160,8 +168,31 @@
         <entry file="file://$PROJECT_DIR$/test/src/test/java/Debug.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="429">
-              <caret line="32" column="19" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="21" />
+              <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MockServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/src/test/java/MockServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1052">
+              <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParamValueProcessor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/core/ParamValueProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="449" column="71" selection-start-line="449" selection-start-column="69" selection-end-line="449" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#22823#22831#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -188,12 +219,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/factory/executorFactory.java" />
-        <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/testngListener/TestResultListener.java" />
-        <option value="$PROJECT_DIR$/test/src/log4j.xml" />
-        <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/mock/IMockServer.java" />
-        <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/ioc/ClassFinder.java" />
-        <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/ioc/IocHelper.java" />
         <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/ioc/ClassHelper.java" />
         <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/classfinder/ClassHelper.java" />
         <option value="$PROJECT_DIR$/test/test-xml/Factory_1_Thread.xml" />
@@ -201,9 +226,7 @@
         <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/classfinder/ClassFinder.java" />
         <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/bean/Sql.java" />
         <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/testnglistener/RetryListener.java" />
-        <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/bean/TestData.java" />
         <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/library/sms/sendMessage.java" />
-        <option value="$PROJECT_DIR$/test/src/test/java/LogicHandler.java" />
         <option value="$PROJECT_DIR$/test/src/test/java/TestListener.java" />
         <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/library/httpclient/HttpConnectionImp.java" />
         <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/library/database/DBHelper.java" />
@@ -217,28 +240,36 @@
         <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/factory/ExecutorFactory.java" />
         <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/config/PropConfig.java" />
         <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/core/TestXmlData.java" />
-        <option value="$PROJECT_DIR$/test/test-xml/FactoryRun.xml" />
         <option value="$PROJECT_DIR$/test/config.properties" />
         <option value="$PROJECT_DIR$/test/pom.xml" />
         <option value="$PROJECT_DIR$/test/src/test/xml/demo2.xml" />
-        <option value="$PROJECT_DIR$/test/src/test/xml/post.xml" />
-        <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/verify/ContainExpectResult.java" />
-        <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/verify/PairExpectResult.java" />
         <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/cache/StringCache.java" />
         <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/library/httpclient/CookieCache.java" />
-        <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/cache/JsonPairCache.java" />
-        <option value="$PROJECT_DIR$/../smart-api-framework/README.md" />
         <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/bean/Param.java" />
         <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/core/ProcessorMethod.java" />
         <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/util/StringUtil.java" />
-        <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/core/TestBase.java" />
         <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/library/httpclient/HttpMethod.java" />
         <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/factory/Executor.java" />
-        <option value="$PROJECT_DIR$/../smart-api-framework/pom.xml" />
-        <option value="$PROJECT_DIR$/test/src/test/java/Debug.java" />
-        <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/core/ParamValueProcessor.java" />
-        <option value="$PROJECT_DIR$/test/src/test/xml/get.xml" />
         <option value="$PROJECT_DIR$/test/src/test/java/MockServer.java" />
+        <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/bean/ExpectResult.java" />
+        <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/bean/TestData.java" />
+        <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/verify/ContainExpectResult.java" />
+        <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/bean/Function.java" />
+        <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/core/DataConvertor.java" />
+        <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/bean/Pair.java" />
+        <option value="$PROJECT_DIR$/test/src/test/xml/get.xml" />
+        <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/cache/JsonPairCache.java" />
+        <option value="$PROJECT_DIR$/test/test-xml/FactoryRun.xml" />
+        <option value="$PROJECT_DIR$/test/src/test/java/LogicHandler.java" />
+        <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/bean/ExpectResults.java" />
+        <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/core/ParamValueProcessor.java" />
+        <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/core/TestBase.java" />
+        <option value="$PROJECT_DIR$/test/src/test/xml/post.xml" />
+        <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/verify/AssertTrueExpectResult.java" />
+        <option value="$PROJECT_DIR$/test/src/test/java/Debug.java" />
+        <option value="$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/verify/PairExpectResult.java" />
+        <option value="$PROJECT_DIR$/../smart-api-framework/pom.xml" />
+        <option value="$PROJECT_DIR$/../smart-api-framework/README.md" />
       </list>
     </option>
   </component>
@@ -289,6 +320,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -317,7 +350,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -332,234 +365,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smart-api-automation-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smart-api-framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="verify" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smart-api-automation-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smart-api-framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testnglistener" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smart-api-automation-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smart-api-framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smart-api-automation-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smart-api-framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="httpclient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smart-api-automation-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smart-api-framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smart-api-automation-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smart-api-framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="factory" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smart-api-automation-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smart-api-framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smart-api-automation-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smart-api-framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smart-api-automation-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smart-api-framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cache" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smart-api-automation-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smart-api-framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bean" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -677,8 +482,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -699,78 +502,19 @@
       <recent name="com.qa.framework.util.StringUtil" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qa.framework.verify" />
       <recent name="test.java" />
       <recent name="com.qa.framework" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git\smart-api-automation-example\test\test-xml" />
       <recent name="D:\git\smart-api-automation-example\test\src\test\xml" />
       <recent name="E:\git\smart-api-framework\src\com\qa\framework" />
       <recent name="E:\git\smart-api-automation-multi-module-example\test\src" />
       <recent name="E:\git\smart-api-automation-multi-module-example\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Debug.debug">
-    <configuration default="false" name="E:/git/smart-api-automation-multi-module-example/test/test-xml/Factory_1_Thread.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/test/test-xml/Factory_1_Thread.xml" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="MockServer.startServer" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="test.java" />
-      <option name="MAIN_CLASS_NAME" value="test.java.MockServer" />
-      <option name="METHOD_NAME" value="startServer" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="TestNG.D:/git/smart-api-automation-example/test/test-xml/FactoryRunMultiThread.xml">
     <configuration default="false" name="Debug.debug" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -843,6 +587,67 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/test/test-xml/FactoryRun.xml" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="Debug" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="test.java" />
+      <option name="MAIN_CLASS_NAME" value="test.java.Debug" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="D:/git/smart-api-automation-example/test/test-xml/FactoryRunMultiThread.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/test/test-xml/FactoryRunMultiThread.xml" />
       <option name="PACKAGE_NAME" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
@@ -1304,19 +1109,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.E:/git/smart-api-automation-multi-module-example/test/test-xml/Factory_1_Thread.xml" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.MockServer.startServer" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.Debug.debug" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.ExecutorFactory" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.D:/git/smart-api-automation-example/test/test-xml/FactoryRun.xml" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.Debug.debug" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.ExecutorFactory" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.D:/git/smart-api-automation-example/test/test-xml/FactoryRun.xml" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.Debug" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.D:/git/smart-api-automation-example/test/test-xml/FactoryRunMultiThread.xml" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.Debug.debug" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.D:/git/smart-api-automation-example/test/test-xml/FactoryRunMultiThread.xml" />
         <item index="1" class="java.lang.String" itemvalue="TestNG.D:/git/smart-api-automation-example/test/test-xml/FactoryRun.xml" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.ExecutorFactory" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.E:/git/smart-api-automation-multi-module-example/test/test-xml/Factory_1_Thread.xml" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.MockServer.startServer" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.Debug" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.Debug.debug" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.ExecutorFactory" />
       </list>
     </recent_temporary>
   </component>
@@ -1352,48 +1157,49 @@
       <workItem from="1489502408581" duration="3093000" />
       <workItem from="1489587014249" duration="3834000" />
       <workItem from="1489671517248" duration="4122000" />
-      <workItem from="1489808776355" duration="14261000" />
+      <workItem from="1489808776355" duration="20948000" />
+      <workItem from="1489890620174" duration="9585000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Debug_debug - 2017.03.18 at 21h 11m 24s.xml">
-      <configuration name="Debug.debug" configurationId="TestNG" />
+    <history-entry file="D__git_smart-api-automation-example_test_test-xml_FactoryRunMultiThread_xml - 2017.03.19 at 12h 09m 07s.xml">
+      <configuration name="D:/git/smart-api-automation-example/test/test-xml/FactoryRunMultiThread.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Debug_debug - 2017.03.18 at 21h 11m 51s.xml">
-      <configuration name="Debug.debug" configurationId="TestNG" />
+    <history-entry file="D__git_smart-api-automation-example_test_test-xml_FactoryRunMultiThread_xml - 2017.03.19 at 12h 10m 12s.xml">
+      <configuration name="D:/git/smart-api-automation-example/test/test-xml/FactoryRunMultiThread.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Debug_debug - 2017.03.18 at 21h 13m 52s.xml">
-      <configuration name="Debug.debug" configurationId="TestNG" />
+    <history-entry file="D__git_smart-api-automation-example_test_test-xml_FactoryRunMultiThread_xml - 2017.03.19 at 12h 12m 26s.xml">
+      <configuration name="D:/git/smart-api-automation-example/test/test-xml/FactoryRunMultiThread.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Debug_debug - 2017.03.18 at 21h 14m 17s.xml">
-      <configuration name="Debug.debug" configurationId="TestNG" />
+    <history-entry file="D__git_smart-api-automation-example_test_test-xml_FactoryRunMultiThread_xml - 2017.03.19 at 13h 03m 09s.xml">
+      <configuration name="D:/git/smart-api-automation-example/test/test-xml/FactoryRunMultiThread.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Debug_debug - 2017.03.18 at 21h 14m 28s.xml">
-      <configuration name="Debug.debug" configurationId="TestNG" />
+    <history-entry file="D__git_smart-api-automation-example_test_test-xml_FactoryRunMultiThread_xml - 2017.03.19 at 13h 03m 17s.xml">
+      <configuration name="D:/git/smart-api-automation-example/test/test-xml/FactoryRunMultiThread.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Debug_debug - 2017.03.18 at 21h 15m 32s.xml">
-      <configuration name="Debug.debug" configurationId="TestNG" />
+    <history-entry file="D__git_smart-api-automation-example_test_test-xml_FactoryRun_xml - 2017.03.19 at 12h 12m 44s.xml">
+      <configuration name="D:/git/smart-api-automation-example/test/test-xml/FactoryRun.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Debug_debug - 2017.03.18 at 21h 17m 44s.xml">
-      <configuration name="Debug.debug" configurationId="TestNG" />
+    <history-entry file="D__git_smart-api-automation-example_test_test-xml_FactoryRun_xml - 2017.03.19 at 13h 03m 00s.xml">
+      <configuration name="D:/git/smart-api-automation-example/test/test-xml/FactoryRun.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Debug_debug - 2017.03.18 at 21h 18m 16s.xml">
-      <configuration name="Debug.debug" configurationId="TestNG" />
+    <history-entry file="Debug - 2017.03.19 at 12h 46m 03s.xml">
+      <configuration name="Debug" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Debug_debug - 2017.03.18 at 21h 19m 04s.xml">
-      <configuration name="Debug.debug" configurationId="TestNG" />
+    <history-entry file="Debug - 2017.03.19 at 12h 46m 30s.xml">
+      <configuration name="Debug" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Debug_debug - 2017.03.18 at 21h 20m 14s.xml">
-      <configuration name="Debug.debug" configurationId="TestNG" />
+    <history-entry file="Debug - 2017.03.19 at 12h 48m 49s.xml">
+      <configuration name="Debug" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119613000" />
+    <option name="totallyTimeSpent" value="135885000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="0" width="1928" height="1036" extended-state="1" />
-    <editor active="false" />
+    <frame x="-4" y="0" width="1928" height="1036" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1402,12 +1208,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34628192" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25305218" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19790576" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19790576" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20421754" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1436,33 +1242,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/core/ParamValueProcessor.java</url>
-          <line>435</line>
-          <properties />
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/core/ParamValueProcessor.java</url>
-          <line>444</line>
-          <properties />
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/verify/PairExpectResult.java</url>
-          <line>70</line>
-          <properties />
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/verify/PairExpectResult.java</url>
-          <line>71</line>
-          <properties />
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="62" />
+      <option name="time" value="78" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1471,76 +1251,8 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mock-server/mockserver-core/3.10.4/mockserver-core-3.10.4.jar!/org/mockserver/model/HttpRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-800">
-          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/config/ProjectEnvironment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1850">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/lwfwind/common/java-common-helper/1.3/java-common-helper-1.3-sources.jar!/com/library/common/StringHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10025">
-          <caret line="421" column="25" selection-start-line="421" selection-start-column="25" selection-end-line="421" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/library/database/DBHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="40" column="13" selection-start-line="33" selection-start-column="12" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/bean/Cookie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/library/multithread/multiThreadHandle.java" />
-    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/library/multithread/multiThreadMontitor.java" />
-    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/library/single/consumedTestDate.java" />
-    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/core/XmlDataProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test-xml/Factory_10_Thread.xml" />
     <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/library/single/TestDataProvider.java" />
-    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/bean/TestData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5664">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/config/PropConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5150">
@@ -1589,14 +1301,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-92">
           <caret line="36" column="56" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test-xml/FactoryRun.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1663,7 +1367,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1078">
           <caret line="218" column="72" selection-start-line="218" selection-start-column="72" selection-end-line="218" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1671,103 +1374,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2100">
           <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/src/test/xml/post.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/core/DataConvertor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1178">
-          <caret line="107" column="53" selection-start-line="107" selection-start-column="53" selection-end-line="107" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/cache/JsonPairCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/bean/Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/bean/Param.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="89" column="51" selection-start-line="89" selection-start-column="51" selection-end-line="89" selection-end-column="51" />
-          <folding>
-            <element signature="e#1706#1707#0" expanded="false" />
-            <element signature="e#1764#1765#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/verify/ContainExpectResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/core/ProcessorMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/util/StringUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/library/httpclient/HttpMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1084">
-          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/core/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="24" column="76" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/factory/Executor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="72" column="32" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/core/ProcessorMethod.java" />
+    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/util/StringUtil.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1784,117 +1395,310 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../smart-api-framework/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/verify/IExpectResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+        <state relative-caret-position="150">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../smart-api-framework/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="475">
-            <caret line="182" column="41" selection-start-line="182" selection-start-column="41" selection-end-line="182" selection-end-column="41" />
-            <folding>
-              <marker date="1489830691194" expanded="true" signature="1363:2179" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="1401:2165" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="1474:1803" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="1533:1723" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="1567:1702" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="1849:2024" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="1879:2007" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="2047:2149" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="2326:2971" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="2364:2957" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="2437:2766" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="2496:2686" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="2530:2665" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="2815:2816" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="2839:2941" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="3095:3643" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="3135:3628" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="3190:3412" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="3219:3395" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="3510:3612" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="3776:4194" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="3818:4180" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="3851:3957" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="4057:4163" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="4357:5079" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="4415:5065" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="4470:4708" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="4500:4691" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="4837:5049" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="5209:6070" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="5252:6057" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="5269:5461" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="5516:5654" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="5545:5637" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="5735:5837" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="5853:6041" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="6227:6675" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="6270:6662" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="6325:6463" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="6354:6446" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="6544:6646" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="6785:7247" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="6828:7234" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="6846:7052" ph="..." />
-              <marker date="1489830691194" expanded="true" signature="7118:7218" ph="..." />
-            </folding>
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/bean/Sql.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1403">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="163" column="38" selection-start-line="163" selection-start-column="38" selection-end-line="163" selection-end-column="38" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/library/httpclient/HttpMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/bean/Param.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2700">
+          <caret line="129" column="26" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="26" />
+          <folding>
+            <element signature="e#1706#1707#0" expanded="false" />
+            <element signature="e#1764#1765#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/bean/TestData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="229" column="45" selection-start-line="229" selection-start-column="45" selection-end-line="229" selection-end-column="45" />
+          <folding>
+            <element signature="e#4641#4642#0" expanded="false" />
+            <element signature="e#4677#4678#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/verify/ContainExpectResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/bean/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <folding>
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/factory/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="79" column="37" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/bean/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="121" column="5" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/cache/JsonPairCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-653">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test-xml/FactoryRun.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test-xml/FactoryRunMultiThread.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/core/DataConvertor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/core/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/bean/ExpectResults.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+          <folding>
+            <element signature="e#572#573#0" expanded="false" />
+            <element signature="e#607#608#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/core/ParamValueProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="449" column="71" selection-start-line="449" selection-start-column="69" selection-end-line="449" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#22823#22831#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/test/java/MockServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1052">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/test/java/LogicHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/src/test/java/Debug.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="21" />
+          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/core/ParamValueProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="444" column="0" selection-start-line="444" selection-start-column="0" selection-end-line="444" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#19434#19442#0" expanded="true" />
-            <element signature="e#19613#19808#0" expanded="true" />
-            <element signature="e#19807#19808#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/verify/PairExpectResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="324">
+          <caret line="62" column="110" selection-start-line="62" selection-start-column="110" selection-end-line="62" selection-end-column="110" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/src/test/xml/get.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        <state relative-caret-position="179">
+          <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/src/test/java/MockServer.java">
+    <entry file="file://$PROJECT_DIR$/test/target/classes/com/qa/util/AutoCompiler1.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/target/classes/com/qa/util/AutoCompiler2.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#258#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../smart-api-framework/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="87" column="24" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/test/xml/post.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../smart-api-framework/src/com/qa/framework/verify/AssertTrueExpectResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="43" column="61" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../smart-api-framework/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="163" column="38" selection-start-line="163" selection-start-column="38" selection-end-line="163" selection-end-column="38" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="278">
+            <caret line="124" column="53" selection-start-line="124" selection-start-column="53" selection-end-line="124" selection-end-column="53" />
+            <folding>
+              <marker date="1489900160747" expanded="true" signature="1388:2251" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="1431:2238" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="1448:1640" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="1695:1833" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="1724:1816" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="1915:2018" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="2034:2222" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="2404:3222" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="2442:3208" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="2515:2844" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="2574:2764" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="2608:2743" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="2890:3065" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="2920:3048" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="3089:3192" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="3367:4014" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="3405:4000" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="3478:3807" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="3537:3727" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="3571:3706" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="3881:3984" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="4145:4825" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="4185:4810" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="4240:4462" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="4269:4445" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="4565:4667" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="4691:4794" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="4965:5576" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="5005:5561" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="5029:5545" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="5223:5423" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="5700:6247" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="5740:6232" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="5764:6216" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="5894:6094" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="6408:7132" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="6466:7118" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="6521:6759" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="6551:6742" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="6889:7102" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="7287:7737" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="7330:7724" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="7385:7523" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="7414:7506" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="7605:7708" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="7845:8309" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="7906:8112" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="8179:8280" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="8280:8296" ph="..." />
+              <marker date="1489900160747" expanded="true" signature="8280:8309" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
