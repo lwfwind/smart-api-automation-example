@@ -13,13 +13,13 @@
             <Header name="m-appkey" value="4272" />
             <Cookie name="unb" value="2020967487" />
         </Headers>
-        <Param name="parameter1" value="#{setup.errorCode}" />
+        <Param name="parameter1" value="#[setup.errorCode]" />
         <Param name="parameter2" value="7936160" />
         <ExpectResults>
             <Pair>showId:129346948</Pair>
             <Pair>showId:1293469.*</Pair>
             <Contain>.*showId.*</Contain>
-            <AssertTrue>"#{bizType}"=="#{fromdb}"</AssertTrue>
+            <AssertTrue>"#[bizType]"=="#[fromdb]"</AssertTrue>
             <Function name="fromdb" clsName="test.java.LogicHandler" methodName="getBizType"/>
         </ExpectResults>
         <After>
