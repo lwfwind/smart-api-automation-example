@@ -18,7 +18,10 @@
         <ExpectResults>
             <Pair>errorCode:#[setup.errorCode]或者#[setup.errorCode+1]</Pair>
             <Pair>errorMsg:约课成功</Pair>
-            <Pair>errorMsg:约课.*</Pair>
+            <Pair>errorMsg:#[if(setup.errorCode==200){
+                return "约课成功";
+                }
+                return "约课失败";]</Pair>
             <Contain>.*errorMsg.*</Contain>
         </ExpectResults>
         <After>
