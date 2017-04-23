@@ -10,8 +10,8 @@ public class LogicHandler {
         logger.info("LogicHandler.reset");
     }
 
-    public static void update() {
-        logger.info("LogicHandler.update");
+    public static void update(int num) {
+        logger.info("LogicHandler.update "+num);
     }
 
     public static String getBizType(){

@@ -1,3 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
-test/test-output
+smart-api-automation-example.iml
+.idea
 test/target
+test/test.iml
+

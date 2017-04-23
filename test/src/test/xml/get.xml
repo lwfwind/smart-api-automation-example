@@ -2,7 +2,7 @@
 <DataConfig url="getMethod?" httpMethod="get">
     <TestData name="getMethod" desc="约课成功">
         <Before>
-            <Function  clsName="test.java.LogicHandler" methodName="update"/>
+            <Function  clsName="test.java.LogicHandler" methodName="update" arguments="1(int)"/>
         </Before>
         <Setup name="setup" url="login" httpMethod="post">
             <Param name="username" value="13636426195">

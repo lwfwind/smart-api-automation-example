@@ -6,8 +6,8 @@ import com.qa.framework.core.ParamValueProcessor;
 import com.qa.framework.core.TestBase;
 import com.qa.framework.library.httpclient.HttpMethod;
 import com.qa.framework.mock.IMockServer;
-import com.qa.framework.testnglistener.PowerEmailableReporter;
 import com.qa.framework.testnglistener.TestResultListener;
+import com.qa.framework.verify.Verify;
 import org.testng.annotations.*;
 
 @Listeners({TestResultListener.class})
@@ -33,7 +33,8 @@ public class Debug extends TestBase {
     public void debug(TestData testData, String url, String httpMethod) {
         ParamValueProcessor.processTestData(testData);
         String content = HttpMethod.request(url, testData.getHeaders(), testData.getParams(), httpMethod, testData.isStoreCookie(), testData.isUseCookie());
-        verifyResult(testData, content);
+        Verify.verifyResult(testData, content);
+        ParamValueProcessor.processAfter(testData);
     }
 
     /*xmlName:需要运行的xml文件名
