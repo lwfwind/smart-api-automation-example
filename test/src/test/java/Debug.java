@@ -1,6 +1,6 @@
 package test.java;
 
-import com.qa.framework.bean.TestData;
+import com.qa.framework.bean.TestCase;
 import com.qa.framework.core.DataManager;
 import com.qa.framework.core.ParamValueProcessor;
 import com.qa.framework.core.TestBase;
@@ -30,11 +30,11 @@ public class Debug extends TestBase {
     }
 
     @Test(dataProviderClass = DataManager.class, dataProvider = "data")
-    public void debug(TestData testData, String url, String httpMethod) {
-        ParamValueProcessor.processTestData(testData);
-        String content = HttpMethod.request(url, testData.getHeaders(), testData.getParams(), httpMethod, testData.isStoreCookie(), testData.isUseCookie());
-        Verify.verifyResult(testData, content);
-        ParamValueProcessor.processAfter(testData);
+    public void debug(TestCase testCase, String url, String httpMethod) {
+        ParamValueProcessor.processTestData(testCase);
+        String content = HttpMethod.request(url, testCase.getHeaders(), testCase.getParams(), httpMethod, testCase.isStoreCookie(), testCase.isUseCookie());
+        Verify.verifyResult(testCase, content);
+        ParamValueProcessor.processAfter(testCase);
     }
 
     /*xmlName:需要运行的xml文件名

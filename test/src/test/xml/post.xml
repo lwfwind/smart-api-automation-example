@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<DataConfig url="postMethod" httpMethod="post">
-    <TestData name="postMethod" desc="postMethod">
+<TestSuite url="postMethod" httpMethod="post">
+    <TestCase name="postMethod" desc="postMethod">
         <Before>
             <Function  clsName="test.java.LogicHandler" methodName="update" arguments="1(int)"/>
         </Before>
@@ -25,5 +25,5 @@
         <After>
             <Function  clsName="test.java.LogicHandler" methodName="reset"/>
         </After>
-    </TestData>
-</DataConfig>
+    </TestCase>
+</TestSuite>
