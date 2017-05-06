@@ -17,4 +17,8 @@ public class LogicHandler {
     public static String getBizType(){
         return "SEAT";
     }
+
+    public static String getSuiteFunctionValue(String param){
+        return param;
+    }
 }

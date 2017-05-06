@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuite url="getMethod?" httpMethod="get">
-    <TestCase name="getMethod" desc="约课成功">
+    <Function name="suiteFunctionValue" clsName="test.java.LogicHandler" methodName="getSuiteFunctionValue" arguments="7936160"/>
+    <TestCase name="getMethod" desc="getMethod">
         <Before>
             <Function  clsName="test.java.LogicHandler" methodName="update" arguments="1(int)"/>
         </Before>
@@ -14,7 +15,35 @@
             <Cookie name="unb" value="2020967487" />
         </Headers>
         <Param name="parameter1" value="#setup.errorCode+1#" />
-        <Param name="parameter2" value="7936160" />
+        <Param name="parameter2" value="#suiteFunctionValue#" />
+        <ExpectResults>
+            <Pair>errorCode:#setup.errorCode#或者#setup.errorCode+1#</Pair>
+            <Pair>errorMsg:约课成功</Pair>
+            <Pair>errorMsg:#if(setup.errorCode==200){
+                return "约课成功";
+                }
+                return "约课失败";#</Pair>
+            <Contain>.*errorMsg.*</Contain>
+        </ExpectResults>
+        <After>
+            <Function  clsName="test.java.LogicHandler" methodName="reset"/>
+        </After>
+    </TestCase>
+    <TestCase name="getMethod2" desc="getMethod2">
+        <Before>
+            <Function  clsName="test.java.LogicHandler" methodName="update" arguments="1(int)"/>
+        </Before>
+        <Setup name="setup" url="login" httpMethod="post">
+            <Param name="username" value="13636426195">
+            </Param>
+            <Param name="password" value="bddeaa7037632c856a6b83e4037f314a" />
+        </Setup>
+        <Headers>
+            <Header name="m-appkey" value="4272" />
+            <Cookie name="unb" value="2020967487" />
+        </Headers>
+        <Param name="parameter1" value="#setup.errorCode+1#" />
+        <Param name="parameter2" value="#suiteFunctionValue#" />
         <ExpectResults>
             <Pair>errorCode:#setup.errorCode#或者#setup.errorCode+1#</Pair>
             <Pair>errorMsg:约课成功</Pair>
