@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Global>
+    <Before></Before>
+    <Function name="globalFunctionValue" clsName="test.java.LogicHandler" methodName="getGlobalFunctionValue" arguments="7936160"/>
+    <After></After>
+</Global>

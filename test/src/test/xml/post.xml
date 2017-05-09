@@ -14,7 +14,7 @@
             <Cookie name="unb" value="2020967487" />
         </Headers>
         <Param name="parameter1" value="#setup.errorCode#" />
-        <Param name="parameter2" value="7936160" />
+        <Param name="parameter2" value="#globalFunctionValue#" />
         <ExpectResults>
             <Pair>showId:129346948</Pair>
             <Pair>showId:1293469.*</Pair>
