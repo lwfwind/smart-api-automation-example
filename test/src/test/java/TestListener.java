@@ -15,6 +15,11 @@ public class TestListener implements ICustomTestListener {
     private static Logger logger=Logger.getLogger(TestListener.class);
 
     @Override
+    public void onStart(ITestContext testContext) {
+
+    }
+
+    @Override
     public void onTestFailure(ITestResult tr) {
 
     }
