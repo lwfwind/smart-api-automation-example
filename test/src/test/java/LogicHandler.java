@@ -2,6 +2,9 @@ package test.java;
 
 import org.apache.log4j.Logger;
 
+import java.util.HashMap;
+import java.util.Map;
+
 
 public class LogicHandler {
     private static final Logger logger = Logger.getLogger(LogicHandler.class);
@@ -24,5 +27,17 @@ public class LogicHandler {
 
     public static String getGlobalFunctionValue(String param){
         return param;
+    }
+
+    public static Map<String,String> getSuiteFunctionMap(){
+        Map<String,String> valueMap = new HashMap<>();
+        valueMap.put("key","100");
+        return valueMap;
+    }
+
+    public static Map<String,String> getGlobalFunctionMap(){
+        Map<String,String> valueMap = new HashMap<>();
+        valueMap.put("key","100");
+        return valueMap;
     }
 }

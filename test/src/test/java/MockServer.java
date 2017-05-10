@@ -46,6 +46,7 @@ public class MockServer implements IMockServer {
                                 .withPath("/getMethod")
                                 .withQueryStringParameter("parameter1","201")
                                 .withQueryStringParameter("parameter2","7936160")
+                                .withQueryStringParameter("parameter3","100")
                                 .withCookies(
                                         new Cookie("PHPSESSID", "9alb81bkiav0nffo0r8m9vf5s3")
                                 )

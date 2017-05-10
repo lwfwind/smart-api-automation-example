@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuite url="getMethod?" httpMethod="get">
     <Function name="suiteFunctionValue" clsName="test.java.LogicHandler" methodName="getSuiteFunctionValue" arguments="7936160"/>
+    <Function name="SuiteFunctionMap" clsName="test.java.LogicHandler" methodName="getSuiteFunctionMap"/>
     <TestCase name="getMethod" desc="getMethod">
         <Before>
-            <Function  clsName="test.java.LogicHandler" methodName="update" arguments="1(int)"/>
+            <Function clsName="test.java.LogicHandler" methodName="update" arguments="1(int)"/>
         </Before>
         <Setup name="setup" url="login" httpMethod="post">
             <Param name="username" value="13636426195">
@@ -16,6 +17,7 @@
         </Headers>
         <Param name="parameter1" value="#setup.errorCode+1#" />
         <Param name="parameter2" value="#suiteFunctionValue#" />
+        <Param name="parameter3" value="#SuiteFunctionMap.key#" />
         <ExpectResults>
             <Pair>errorCode:#setup.errorCode#或者#setup.errorCode+1#</Pair>
             <Pair>errorMsg:约课成功</Pair>
@@ -26,12 +28,12 @@
             <Contain>.*errorMsg.*</Contain>
         </ExpectResults>
         <After>
-            <Function  clsName="test.java.LogicHandler" methodName="reset"/>
+            <Function clsName="test.java.LogicHandler" methodName="reset"/>
         </After>
     </TestCase>
     <TestCase name="getMethod2" desc="getMethod2">
         <Before>
-            <Function  clsName="test.java.LogicHandler" methodName="update" arguments="1(int)"/>
+            <Function clsName="test.java.LogicHandler" methodName="update" arguments="1(int)"/>
         </Before>
         <Setup name="setup" url="login" httpMethod="post">
             <Param name="username" value="13636426195">
@@ -44,6 +46,7 @@
         </Headers>
         <Param name="parameter1" value="#setup.errorCode+1#" />
         <Param name="parameter2" value="#suiteFunctionValue#" />
+        <Param name="parameter3" value="#globalFunctionMap.key#" />
         <ExpectResults>
             <Pair>errorCode:#setup.errorCode#或者#setup.errorCode+1#</Pair>
             <Pair>errorMsg:约课成功</Pair>
@@ -54,7 +57,7 @@
             <Contain>.*errorMsg.*</Contain>
         </ExpectResults>
         <After>
-            <Function  clsName="test.java.LogicHandler" methodName="reset"/>
+            <Function clsName="test.java.LogicHandler" methodName="reset"/>
         </After>
     </TestCase>
 </TestSuite>
