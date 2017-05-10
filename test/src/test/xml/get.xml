@@ -4,7 +4,7 @@
     <Function name="SuiteFunctionMap" clsName="test.java.LogicHandler" methodName="getSuiteFunctionMap"/>
     <TestCase name="getMethod" desc="getMethod">
         <Before>
-            <Function clsName="test.java.LogicHandler" methodName="update" arguments="1(int)"/>
+            <Function clsName="test.java.LogicHandler" methodName="update" arguments="1,0"/>
         </Before>
         <Setup name="setup" url="login" httpMethod="post">
             <Param name="username" value="13636426195">
