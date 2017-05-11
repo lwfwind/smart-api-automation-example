@@ -13,6 +13,10 @@ public class LogicHandler {
         logger.info("LogicHandler.reset");
     }
 
+    public static void update(int num) {
+        logger.info("LogicHandler.update "+num);
+    }
+
     public static void update(int num,boolean bool) {
         logger.info("LogicHandler.update "+num+" bool "+bool);
     }
